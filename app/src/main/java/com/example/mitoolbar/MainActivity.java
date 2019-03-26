@@ -1,3 +1,16 @@
+/*
+1. Modificar estilo del Theme usado para que no use uno se los que añaden una actionbar
+    Ver Theme  AppTheme declarado en styles.xml
+2. Crear el toolbar (preferiblemente en layaut aparte y luego incluir en principal).
+    Ver toolbar.xml
+3. Dotar al toolbar de las capacidades de una actionbar. Esto se hace  con setSupportActionBar(toolbar)
+    Para utilizar las capacidades de la actionbar utilizar getSupportActionBar() que devuelve
+    objeto actionbar.
+4. Agregar menú a la toolbar.
+    - Crear recurso xml menu.
+    - Implementar métodos callback onCreateOptionsMenu() y onOptionsItemSelected()
+ */
+
 package com.example.mitoolbar;
 
 import android.os.Build;
