@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/borra"
+        android:icon="@drawable/ic_action_borrar"
+        android:orderInCategory="100"
+        android:title="Borrar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/buscar"
+        android:icon="@drawable/ic_action_buscar"
+        android:orderInCategory="100"
+        android:title="Buscar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/configuracion"
+        android:icon="@drawable/ic_action_config"
+        android:orderInCategory="100"
+        android:title="Configurar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Salir"
+        android:orderInCategory="110"
+        android:title="Salir"
+        app:showAsAction="never" />
+
+</menu>
